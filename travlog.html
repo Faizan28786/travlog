@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travlog | Discover the World</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+  <!-- Top Contact Bar -->
+  <div class="top-bar">
+    <div class="top-left">
+      <span>support@travlog.live</span>
+      <span>+91 8128671570</span>
+      <span>+91 9898598990</span>
+      <span>+91 9157483990</span>
+    </div>
+<div class="top-right social-top">
+  <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://www.instagram.com/travlog_dmc/" target="_blank" class="social-ig">
+  <i class="fab fa-instagram"></i>
+</a>
+  <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+</div>
+
+  </div>
+
+  <!-- Navbar (Sticky) -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="travloglogo.png" alt="Travlog Logo" />
+    </div>
+
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+
+      <div class="dropdown">
+        <a href="javascript:void(0)">Destinations ▾</a>
+        <div class="dropdown-menu">
+          <!-- JS expects these ids -->
+          <a href="#" id="nav-international">International</a>
+          <a href="#" id="nav-domestic">Domestic</a>
+        </div>
+      </div>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+
+    <!-- JS calls toggleMenu() -->
+    <div class="menu-icon">☰</div>
+  </header>
+<!-- HOME / HERO -->
+<section id="home" class="hero hero-frame">
+  <!-- Page background (behind the card) -->
+  <div class="hero-page-bg"></div>
+
+  <!-- Floating Card -->
+  <div class="hero-card hero-glass-frame">
+    <!-- Image area inside card -->
+    <div class="hero-card-media">
+      <div class="hero-media-overlay"></div>
+
+      <!-- Airplanes (same) -->
+      <div class="airplane airplane-left">🛫</div>
+      <div class="airplane airplane-right">🛬</div>
+
+      <!-- Text on image -->
+      <div class="hero-card-content">
+        <div class="hero-kicker">JOURNEY</div>
+        <h1>Exploring The World</h1>
+        <p>
+          Discover breathtaking destinations, unforgettable experiences,
+          and journeys crafted just for you.
+        </p>
+        <a class="hero-btn" href="#destinations-section">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- =========================
+       POPULAR DESTINATIONS (like reference)
+  ========================= -->
+  <section class="popular">
+    <div class="section-head">
+      <h2>Popular Destinations</h2>
+      <p>Top picks with curated itineraries and seamless planning.</p>
+    </div>
+
+    <div class="popular-grid">
+      <article class="pop-card">
+        <img src="thai.png" alt="Thailand">
+        <div class="pop-body">
+          <h3>Thailand</h3>
+          <p>Night markets, islands, beaches, and culture.</p>
+        </div>
+      </article>
+
+      <article class="pop-card">
+        <img src="image.png" alt="Vietnam">
+        <div class="pop-body">
+          <h3>Vietnam</h3>
+          <p>Food, culture, beaches, and modern city vibes.</p>
+        </div>
+      </article>
+
+      <article class="pop-card">
+        <img src="images.png" alt="Maldives">
+        <div class="pop-body">
+          <h3>Maldives</h3>
+          <p>Luxury • Ocean • Escape</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- =========================
+       WHY CHOOSE US (like reference)
+  ========================= -->
+  <section class="why-choose section-bg why-section">
+    <div class="section-head">
+      <h2>Why Choose Us</h2>
+      <p>Professional, responsive, and focused on creating memorable experiences.</p>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-ico">🎯</div>
+        <h3>Custom Packages</h3>
+        <p>Trips designed for your budget, dates, and preferences.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-ico">🕒</div>
+        <h3>24/7 Support</h3>
+        <p>Dedicated support during planning and while you travel.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-ico">✨</div>
+        <h3>Great Experiences</h3>
+        <p>Verified stays, trusted vendors, and curated activities.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       ABOUT (keep your existing JS hooks)
+  ========================= -->
+<section id="about" class="about-pro">
+  <!-- TOP HERO STRIP (optional) -->
+  <div class="about-pro-hero">
+    <div class="about-pro-hero-inner">
+      <h2>About Us</h2>
+    </div>
+  </div>
+
+  <!-- MAIN ABOUT CARD -->
+  <div class="about-pro-wrap">
+    <div class="about-pro-card">
+
+      <!-- LEFT CONTENT -->
+      <div class="about-pro-left">
+        <div class="about-pro-kicker">OUR STORY</div>
+
+        <h3 class="about-pro-title">
+          Work Hard & <span>Travel Harder</span>
+        </h3>
+
+        <!-- ✅ Tumhara paragraph (same content) -->
+        <p class="about-pro-text">
+          Established in 2017 and backed by over 20 years of combined expertise in the travel industry, Travlog is driven by one simple philosophy — <strong>Work Hard & Travel Harder.</strong><br><br>
+
+          We believe travel is more than a break — it is the reset button for ambition, creativity, and inspiration. Motivation isn’t unlimited; it needs recharging. And nothing restores it better than discovering the world. 🌍✈️<br><br>
+
+          As specialists in Destination Management and Hotel Sales, we deliver seamless, detail-driven travel solutions with passion and precision. For leisure travelers, we curate unforgettable experiences. For travel partners, we provide dependable, high-touch services designed to support both leisure and business journeys.<br><br>
+
+          We don’t just work with travel agents — <strong>we build lasting partnerships.</strong> Rooted in integrity, dedication, and service excellence, we remove the stress from holiday planning while ensuring you remain in full control.<br><br>
+
+          Every itinerary is thoughtfully customized to your preferences, refined meticulously until every detail feels perfect.<br><br>
+
+          <strong>Travel more. Live better. Work happier.</strong>
+        </p>
+
+        <!-- STATS -->
+        <div class="about-pro-stats">
+          <div class="stat">
+            <div class="num">2017</div>
+            <div class="lbl">Established</div>
+          </div>
+          <div class="stat">
+            <div class="num">20+</div>
+            <div class="lbl">Years Experience</div>
+          </div>
+          <div class="stat">
+            <div class="num">2</div>
+            <div class="lbl">Offices</div>
+          </div>
+          <div class="stat">
+            <div class="num">100%</div>
+            <div class="lbl">Custom Trips</div>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="about-pro-actions">
+          <a href="#destinations-section" class="about-pro-btn">Explore Destinations</a>
+          <a href="#gallery" class="about-pro-btn ghost">View Gallery</a>
+        </div>
+      </div>
+
+      <!-- RIGHT MEDIA -->
+      <div class="about-pro-right">
+        <div class="about-pro-mini">
+          <div class="mini-card">
+            <img src="viet.png" alt="Trip Moments">
+            <span class="mini-tag">Trip Moments</span>
+          </div>
+          <div class="mini-card">
+            <img src="mald.png" alt="Premium Stays">
+            <span class="mini-tag">Premium Stays</span>
+          </div>
+        </div>
+
+        <div class="about-pro-big">
+          <img src="dimg.png" alt="Travlog Team / Travel Experience">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <section class="about-travlog">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>
+            We Are The Best <br>
+            <span>DESTINATION MANAGEMENT COMPANY</span>
+          </h2>
+
+          <p>
+            Travlog is a trusted B2B travel partner creating unforgettable journeys
+            across the globe. We design personalized travel experiences with
+            comfort, safety, and adventure at heart.
+          </p>
+        </div>
+
+        <div class="about-images">
+          <div class="about-img"><img src="m.png" alt="Destination 1"></div>
+          <div class="about-img"><img src="m1.png" alt="Destination 2"></div>
+          <div class="about-img"><img src="tower.png" alt="Destination 3"></div>
+        </div>
+      </div>
+
+      <!-- Travlog Interactive Info (your tabs/accordions JS uses these classes) -->
+     <section class="travlog-info-section">
+  <div class="travlog-info">
+          <h3>TravLog, A Destination Management Company</h3>
+          <p>
+            We’re a business partner of our Travel Agent anchored by our values,
+            integrity and dedication to service. We’re here to take the stress out of
+            the holiday planning process.
+          </p>
+        </div>
+     </section>
+        <div class="info-grid">
+          <div class="info-card">
+            <div class="info-card-title"><span>Managed Destinations</span></div>
+
+            <div class="tabs">
+              <button class="tab-btn active" data-tab="inbound">Inbound (India)</button>
+              <button class="tab-btn" data-tab="outbound">Outbound (International)</button>
+            </div>
+
+            <div class="tab-content active" id="inbound">
+              <ul class="pill-list">
+                <li>Himachal</li>
+                <li>Uttarakhand</li>
+                <li>Rajasthan</li>
+              </ul>
+            </div>
+
+            <div class="tab-content" id="outbound">
+              <ul class="pill-list">
+                <li>Vietnam</li>
+                <li>Cambodia</li>
+                <li>Maldives</li>
+                <li>Thailand</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <button class="accordion-btn" type="button">
+              Mail Us <span class="acc-icon">+</span>
+            </button>
+
+            <div class="accordion-panel">
+              <div class="contact-lines">
+                <a href="mailto:support@travlog.live">support@travlog.live</a>
+                <a href="mailto:travlog.b2b@gmail.com">travlog.b2b@gmail.com</a>
+                <a href="mailto:info@travlog.live">info@travlog.live</a>
+                <a href="mailto:ali@travlog.live">ali@travlog.live</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <button class="accordion-btn" type="button">
+              Office Locations <span class="acc-icon">+</span>
+            </button>
+
+            <div class="accordion-panel">
+              <p class="loc-text">INDIA – Gujarat Office: T/15C, India Bulls, Jetalpur Road,Vadodara.
+                <br>VIETNAM –Office: 24 Binh Hoa 6 Street, Khue Trung Ward, Cam Le District, Da Nang City</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+<!-- WE ARE MEMBERS OF.. -->
+<section id="members" class="members-pro">
+  <div class="members-pro__wrap">
+
+    <header class="members-pro__head">
+      <h2 class="members-pro__title">We Are Members Of..</h2>
+      <strong class="members-pro__sub">
+        Trusted partnerships with leading travel & tourism associations — ensuring credibility, compliance, and service excellence.
+      </strong>
+    </header>
+
+    <div class="members-pro__grid">
+
+      <!-- 1 -->
+      <a class="member-pro" href="https://nidhi.tourism.gov.in/" target="_blank" rel="noopener noreferrer">
+        <div class="member-pro__logo">
+          <img src="nidhi.png" alt="NIDHI Logo" />
+        </div>
+        <div class="member-pro__meta">
+          <h3 class="member-pro__name">NIDHI</h3>
+          <p class="member-pro__desc">
+NIDHI - Ministry Of Tourism</p>
+          <div class="member-pro__row">
+            <span class="member-pro__chip">Official</span>
+            <span class="member-pro__visit">Visit Website →</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- 2 -->
+      <a class="member-pro" href="https://www.tafionline.com/" target="_blank" rel="noopener noreferrer">
+        <div class="member-pro__logo">
+          <img src="tafi.png" alt="TAFI Logo" />
+        </div>
+        <div class="member-pro__meta">
+          <h3 class="member-pro__name">TAFI</h3>
+          <p class="member-pro__desc">Travel Agent Federation Of India</p>
+          <div class="member-pro__row">
+            <span class="member-pro__chip">Official</span>
+            <span class="member-pro__visit">Visit Website →</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- 3 -->
+      <a class="member-pro" href="https://www.gujarattourism.com/" target="_blank" rel="noopener noreferrer">
+        <div class="member-pro__logo">
+          <img src="gujtour.png" alt="GUJARAT TOURISM Logo" />
+        </div>
+        <div class="member-pro__meta">
+          <h3 class="member-pro__name">GUJARAT TOURISM</h3>
+          <p class="member-pro__desc">Tourism Corporation of Gujarat Limited</p>
+          <div class="member-pro__row">
+            <span class="member-pro__chip">Official</span>
+            <span class="member-pro__visit">Visit Website →</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- 4 -->
+      <a class="member-pro" href="https://gtaa.co.in/" target="_blank" rel="noopener noreferrer">
+        <div class="member-pro__logo">
+          <img src="gtaa.png" alt="GTAA Logo" />
+        </div>
+        <div class="member-pro__meta">
+          <h3 class="member-pro__name">GTAA</h3>
+          <p class="member-pro__desc">Global Travel Agent Association </p>
+          <div class="member-pro__row">
+            <span class="member-pro__chip">Official</span>
+            <span class="member-pro__visit">Visit Website →</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- 5 -->
+      <a class="member-pro" href="https://www.facebook.com/touroperatorsuppliergroup/" target="_blank" rel="noopener noreferrer">
+        <div class="member-pro__logo">
+          <img src="tosg.png" alt="TOSG Logo" />
+        </div>
+        <div class="member-pro__meta">
+          <h3 class="member-pro__name">TOSG</h3>
+          <p class="member-pro__desc">Tour Operator Supplier Group</p>
+          <div class="member-pro__row">
+            <span class="member-pro__chip">Official</span>
+            <span class="member-pro__visit">Visit Facebook Website →</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- 6 -->
+      <a class="member-pro" href="https://vtaa.in/" target="_blank" rel="noopener noreferrer">
+        <div class="member-pro__logo">
+          <img src="vtaa.png" alt="VTAA Logo" />
+        </div>
+        <div class="member-pro__meta">
+          <h3 class="member-pro__name">VTAA</h3>
+          <p class="member-pro__desc">Vadodara Travel Agents Association</p>
+          <div class="member-pro__row">
+            <span class="member-pro__chip">Official</span>
+            <span class="member-pro__visit">Visit Website →</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- =========================
+       DESTINATIONS (your JS stays same)
+  ========================= -->
+  <section id="destinations-section" class="destinations">
+    <div class="section-head">
+      <h2>Destinations</h2>
+      <p>Explore curated Domestic and International experiences.</p>
+    </div>
+
+<div class="destinations-tabs">
+  <button class="dest-tab active" data-target="international-panel">International</button>
+  <button class="dest-tab" data-target="domestic-panel">Domestic</button>
+</div>
+
+    
+
+    <!-- DOMESTIC -->
+    <div class="dest-panel" id="domestic-panel">
+      <div class="dest-hero">
+        <div class="dest-hero-text">
+          <h3>Inbound (India)</h3>
+          <p>Seamless planning, verified stays, and on-ground support.</p>
+          <div class="dest-badges">
+            <span>Himachal</span><span>Uttarakhand</span><span>Rajasthan</span>
+          </div>
+          <a class="dest-cta" href="#contact">Plan Domestic Trip</a>
+        </div>
+
+        <div class="dest-hero-image">
+          <img src="indimg.png" alt="Domestic destination">
+        </div>
+      </div>
+
+      <div class="dest-cards">
+        <article class="dest-card">
+          <img src="h1.png" alt="Himachal">
+          <div class="dest-card-body">
+            <h4>Himachal</h4>
+            <p>Mountains, valleys, and hill escapes.</p>
+            <button class="mini-btn hl-btn" data-dest="himachal">View Highlights</button>
+          </div>
+        </article>
+
+        <article class="dest-card">
+          <img src="ut.png" alt="Uttarakhand">
+          <div class="dest-card-body">
+            <h4>Uttarakhand</h4>
+            <p>Spiritual routes, nature trails, scenic stays.</p>
+            <button class="mini-btn hl-btn" data-dest="uttarakhand">View Highlights</button>
+          </div>
+        </article>
+
+        <article class="dest-card">
+          <img src="raj.png" alt="Rajasthan">
+          <div class="dest-card-body">
+            <h4>Rajasthan</h4>
+            <p>Forts, culture, deserts, royal experiences.</p>
+            <button class="mini-btn hl-btn" data-dest="rajasthan">View Highlights</button>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- INTERNATIONAL -->
+    <div class="dest-panel active" id="international-panel">
+      <div class="dest-hero">
+        <div class="dest-hero-text">
+          <h3>Outbound (International)</h3>
+          <p>Curated itineraries with end-to-end assistance.</p>
+          <div class="dest-badges">
+            <span>Vietnam</span><span>Cambodia</span><span>Maldives</span><span>Thailand</span>
+          </div>
+          <a class="dest-cta" href="#contact">Plan International Trip</a>
+        </div>
+
+        <div class="dest-hero-image">
+          <img src="int.png" alt="International destination">
+        </div>
+      </div>
+
+      <div class="dest-cards">
+        <article class="dest-card">
+          <img src="viet.png" alt="Vietnam">
+          <div class="dest-card-body">
+            <h4>Vietnam</h4>
+            <p>Food, culture, beaches, city vibes.</p>
+            <button class="mini-btn hl-btn" data-dest="vietnam">View Highlights</button>
+          </div>
+        </article>
+
+        <article class="dest-card">
+          <img src="cam.png" alt="Cambodia">
+          <div class="dest-card-body">
+            <h4>Cambodia</h4>
+            <p>Heritage, temples, timeless landscapes.</p>
+            <button class="mini-btn hl-btn" data-dest="cambodia">View Highlights</button>
+          </div>
+        </article>
+
+        <article class="dest-card">
+          <img src="ab.png" alt="Maldives">
+          <div class="dest-card-body">
+            <h4>Maldives</h4>
+            <p>Luxury resorts, crystal waters, Underwater Paradise.</p>
+            <button class="mini-btn hl-btn" data-dest="maldives">View Highlights</button>
+          </div>
+        </article>
+
+        <article class="dest-card">
+          <img src="changethai.png" alt="Thailand">
+          <div class="dest-card-body">
+            <h4>Thailand</h4>
+            <p>Markets, islands, beaches, culture.</p>
+            <button class="mini-btn hl-btn" data-dest="thailand">View Highlights</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       GALLERY
+  ========================= -->
+  <section id="gallery" class="gallery">
+    <div class="section-head">
+      <h2>Gallery</h2>
+      <!-- Gallery Videos Trigger Button -->
+
+      <p>A glimpse of journeys we craft — places, moments, memories.</p>
+    </div>
+
+    <div class="gallery-grid">
+      <img src="vietnam-island-destinations.png" alt="Travel 1">
+      <img src="v9.png" alt="Travel 2">
+      <img src="v6.png" alt="Travel 3">
+      <img src="v7.png" alt="Travel 4">
+      <img src="v8.png" alt="Travel 5">
+      <img src="v10.png" alt="Travel 6">
+    </div>
+    <!-- ===== GALLERY VIDEOS (ADD BELOW GALLERY PHOTOS) ===== -->
+<div class="gallery-videos">
+  <button class="gvideo-card" type="button" data-video="IMG_7868.MP4">
+<div class="gvideo-thumb">
+  <video src="IMG_7868.MP4" muted playsinline preload="metadata"></video>
+  <span class="gvideo-play"><i class="fa-solid fa-play"></i></span>
+</div>
+    <div class="gvideo-cap">
+      <span>Click to play</span>
+    </div>
+  </button>
+
+  <button class="gvideo-card" type="button" data-video="vietnam video.MP4">
+<div class="gvideo-thumb">
+  <video src="vietnam video.MP4" muted playsinline preload="metadata"></video>
+  <span class="gvideo-play"><i class="fa-solid fa-play"></i></span>
+</div>
+
+    <div class="gvideo-cap">
+      <span>Click to play</span>
+    </div>
+  </button>
+</div>
+
+<!-- ===== VIDEO MODAL ===== -->
+<div class="modal-overlay" id="gvModal" aria-hidden="true">
+  <div class="hl-modal gv-modal" role="dialog" aria-modal="true" aria-labelledby="gvTitle">
+    <button class="hl-close" id="gvClose" type="button" aria-label="Close">×</button>
+
+    <div class="gv-media">
+      <video id="gvPlayer" controls playsinline></video>
+    </div>
+
+    <div class="pg-modal-foot">
+      <h3 id="gvTitle">Video</h3>
+      <p class="muted">Click outside to close.</p>
+    </div>
+  </div>
+</div>
+
+    <!-- =========================
+   PREMIUM PERSONAL GALLERY (ADD BELOW EXISTING GALLERY)
+   Achievements • Meet the Owner • Family Trips
+========================= -->
+<section class="pgallery" id="personal-gallery">
+  <div class="section-head">
+    <h2>Moments & Milestones</h2>
+    <p>Achievements • Meet the Owner • Trips</p>
+  </div>
+
+  <!-- Tabs -->
+  <div class="pg-tabs">
+    <button class="pg-tab active" type="button" data-pg="ach">🏆 Achievements</button>
+    <button class="pg-tab" type="button" data-pg="own">👤 Meet the Owner</button>
+    <button class="pg-tab" type="button" data-pg="fam">👨‍👩‍👧‍👦 Trips</button>
+  </div>
+
+  <div class="pg-wrap">
+
+    <!-- Panel: Achievements -->
+    <div class="pg-panel active" id="pg-ach">
+      <div class="pg-subhead">
+        <h3>🏆 Achievements & Recognition</h3>
+        <p>Awards, certificates, memberships & proud moments.</p>
+      </div>
+
+      <div class="pg-grid">
+        <button class="pg-card" type="button" data-img="ali.png">
+          <img src="ali.png" alt="Award 1">
+          <div class="pg-cap">
+          </div>
+        </button>
+
+        <button class="pg-card" type="button" data-img="ali1.png">
+          <img src="ali1.png" alt="Award 2">
+          <div class="pg-cap">
+          </div>
+        </button>
+
+        <button class="pg-card" type="button" data-img="ali2.png">
+          <img src="ali2.png" alt="Award 3">
+          <div class="pg-cap">
+          </div>
+        </button>
+        <button class="pg-card" type="button" data-img="achievement.png.jpeg">
+          <img src="achievement.png.jpeg" alt="Award 2">
+          <div class="pg-cap">
+          </div>
+        </button>   
+        <button class="pg-card" type="button" data-img="achiev.png.jpeg">
+          <img src="achiev.png.jpeg" alt="Award 2">
+          <div class="pg-cap">
+          </div>
+        </button> 
+                <button class="pg-card" type="button" data-img="ac2.png.jpeg">
+          <img src="ac2.png.jpeg" alt="Award 2">
+          <div class="pg-cap">
+          </div>
+        </button>
+                <button class="pg-card" type="button" data-img="ac1.png.jpeg">
+          <img src="ac1.png.jpeg" alt="Award 2">
+          <div class="pg-cap">
+          </div>
+        </button>
+                <button class="pg-card" type="button" data-img="owner4.png.jpeg">
+          <img src="owner4.png.jpeg" alt="Award 2">
+          <div class="pg-cap">
+          </div>
+        </button>
+                <button class="pg-card" type="button" data-img="acc.jpg">
+          <img src="acc.jpg" alt="Award 2">
+          <div class="pg-cap">
+          </div>
+        </button>           
+      </div>
+    </div>
+
+    <!-- Panel: Owner -->
+    <div class="pg-panel" id="pg-own">
+      <div class="pg-subhead">
+        <h3>👤 Meet the Owner</h3>
+        <p>Behind the brand — the person who makes every trip special.</p>
+      </div>
+
+      <div class="pg-grid">
+        <button class="pg-card" type="button" data-img="ownerr.jfif">
+          <img src="ownerr.jfif" alt="Owner 1">
+          <div class="pg-cap">
+          </div>
+        </button>
+
+        <button class="pg-card" type="button" data-img="owner1.png.jpeg">
+          <img src="owner1.png.jpeg" alt="Owner 2">
+          <div class="pg-cap">
+          </div>
+        </button>
+
+        <button class="pg-card" type="button" data-img="owner3.png.jpeg">
+          <img src="owner3.png.jpeg" alt="Owner 3">
+          <div class="pg-cap">
+          </div>
+        </button>
+                <button class="pg-card" type="button" data-img="IMG_7401.JPG.jpeg">
+          <img src="IMG_7401.JPG.jpeg" alt="Owner 2">
+          <div class="pg-cap">
+          </div>
+        </button>
+        <button class="pg-card" type="button" data-img="own2.jpg">
+          <img src="own2.jpg" alt="Owner 3">
+          <div class="pg-cap">
+          </div>
+        </button>
+        <button class="pg-card" type="button" data-img="own.jpg">
+          <img src="own.jpg" alt="Owner 3">
+          <div class="pg-cap">
+          </div>
+        </button>
+                <button class="pg-card" type="button" data-img="own1.jpg">
+          <img src="own1.jpg" alt="Owner 3">
+          <div class="pg-cap">
+          </div>
+        </button>
+                <button class="pg-card" type="button" data-img="own3.jpg">
+          <img src="own3.jpg" alt="Owner 3">
+          <div class="pg-cap">
+          </div>
+        </button>
+                      <button class="pg-card" type="button" data-img="own3.jpg">
+          <img src="Ali1.jpg" alt="Owner 3">
+          <div class="pg-cap">
+          </div>
+        </button> 
+      </div>
+    </div>
+
+    <!-- Panel:trips-->
+    <div class="pg-panel" id="pg-fam">
+      <div class="pg-subhead">
+        <h3>👨‍👩‍👧‍👦Trips & Travel Life</h3>
+        <p>Personal travel stories that reflect passion & authenticity.</p>
+      </div>
+
+      <div class="pg-grid">
+        <button class="pg-card" type="button" data-img="trip2.png.jpeg">
+          <img src="trip2.png.jpeg" alt="Family 1">
+          <div class="pg-cap">
+          </div>
+        </button>
+
+        <button class="pg-card" type="button" data-img="trip3.png.jpeg">
+          <img src="trip3.png.jpeg" alt="Family 2">
+          <div class="pg-cap">
+          </div>
+        </button>
+
+        <button class="pg-card" type="button" data-img="trip4.png.jpeg">
+          <img src="trip4.png.jpeg" alt="Family 3">
+          <div class="pg-cap">
+          </div>
+        </button>
+                <button class="pg-card" type="button" data-img="trip5.png.jpeg">
+          <img src="trip5.png.jpeg" alt="Family 3">
+          <div class="pg-cap">
+          </div>
+        </button>
+                <button class="pg-card" type="button" data-img="trip6.png.jpeg" >
+          <img src="trip6.png.jpeg" alt="Family 3">
+          <div class="pg-cap">
+          </div>
+        </button>
+                <button class="pg-card" type="button" data-img="trip7.png.jpeg">
+          <img src="trip7.png.jpeg" alt="Family 3">
+          <div class="pg-cap">
+          </div>
+        </button>
+                <button class="pg-card" type="button" data-img="trip8.png.jpeg" >
+          <img src="trip8.png.jpeg" alt="Family 3">
+          <div class="pg-cap">
+          </div>
+        </button>
+                <button class="pg-card" type="button" data-img="trip9.png.jpeg">
+          <img src="trip9.png.jpeg" alt="Family 3">
+          <div class="pg-cap">
+          </div>
+        </button>
+                <button class="pg-card" type="button" data-img="trips.png.jpeg">
+          <img src="trips.png.jpeg" alt="Family 3">
+          <div class="pg-cap">
+          </div>
+        </button>
+                <button class="pg-card" type="button" data-img="mustaq.jpeg">
+          <img src="mustaq.jpeg" alt="Family 3">
+          <div class="pg-cap">
+          </div>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Lightbox Modal -->
+<div class="modal-overlay" id="pgModal" aria-hidden="true">
+  <div class="hl-modal pg-modal">
+    <button class="hl-close" id="pgClose" type="button">×</button>
+
+    <div class="pg-modal-media">
+      <img id="pgModalImg" src="" alt="Preview">
+    </div>
+
+    <div class="pg-modal-foot">
+      <h3 id="pgModalTitle">Preview</h3>
+      <p class="muted">Click outside, press ESC, or × to close.</p>
+    </div>
+  </div>
+</div>
+<script>
+(() => {
+  const ready = (fn) => {
+    if (document.readyState !== "loading") fn();
+    else document.addEventListener("DOMContentLoaded", fn);
+  };
+
+  ready(() => {
+    // Tabs
+    const tabs = document.querySelectorAll(".pg-tab[data-pg]");
+    const panels = document.querySelectorAll(".pg-panel");
+
+    if (tabs.length && panels.length) {
+      tabs.forEach(tab => {
+        tab.addEventListener("click", () => {
+          tabs.forEach(t => t.classList.remove("active"));
+          tab.classList.add("active");
+
+          panels.forEach(p => p.classList.remove("active"));
+          const target = document.getElementById("pg-" + tab.dataset.pg);
+          if (target) target.classList.add("active");
+        });
+      });
+    }
+
+    // Lightbox
+    const modal = document.getElementById("pgModal");
+    const closeBtn = document.getElementById("pgClose");
+    const modalImg = document.getElementById("pgModalImg");
+    const modalTitle = document.getElementById("pgModalTitle");
+    const cards = document.querySelectorAll(".pg-card[data-img]");
+
+    const openModal = (src, title) => {
+      if (!modal || !modalImg) return;
+      modalImg.src = src;
+      if (modalTitle) modalTitle.textContent = title || "Preview";
+      modal.classList.add("open");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+    };
+
+    const closeModal = () => {
+      if (!modal || !modalImg) return;
+      modal.classList.remove("open");
+      modal.setAttribute("aria-hidden", "true");
+      modalImg.src = "";
+      if (modalTitle) modalTitle.textContent = "Preview";
+      document.body.style.overflow = "";
+    };
+
+    cards.forEach(card => {
+      card.addEventListener("click", () => {
+        openModal(card.dataset.img, card.dataset.title);
+      });
+    });
+
+    if (closeBtn) closeBtn.addEventListener("click", closeModal);
+
+    if (modal) {
+      modal.addEventListener("click", (e) => {
+        if (e.target === modal) closeModal();
+      });
+    }
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && modal && modal.classList.contains("open")) {
+        closeModal();
+      }
+    });
+  });
+})();
+</script>
+
+  </section>
+  <!-- =========================
+     REVIEWS SECTION
+========================= -->
+<section class="reviews-section">
+  <div class="reviews-wrap">
+    <div class="reviews-head">
+      <h2>What Our Travelers Say</h2>
+      <p>Real experiences from our happy customers around the world.</p>
+    </div>
+
+<div class="reviews-grid">
+
+  <div class="review-card pin-card">
+    <p>"Our Vietnam trip was perfectly managed. Hotels, transfers, everything smooth!"</p>
+    <div class="stars">⭐⭐⭐⭐⭐</div>
+    <span class="review-name">— Priya Sharma, Delhi</span>
+  </div>
+
+  <div class="review-card pin-card">
+    <p>"Travlog handled our Himachal tour beautifully. Great support and planning."</p>
+    <div class="stars">⭐⭐⭐⭐⭐</div>
+    <span class="review-name">— Rahul Mehta, Mumbai</span>
+  </div>
+
+  <div class="review-card pin-card">
+    <p>"Maldives honeymoon package was amazing. Highly recommended agency."</p>
+    <div class="stars">⭐⭐⭐⭐⭐</div>
+    <span class="review-name">— Sneha & Arjun</span>
+  </div>
+
+</div>
+
+</section>
+
+
+<footer class="footer" id="contact">
+
+  <div class="footer-container">
+
+    <!-- Brand Column -->
+    <div class="footer-col brand-col">
+      <img src="travloglogo.png" class="footer-logo" alt="Travlog Logo">
+      <p>
+        Crafting memorable journeys across the globe with care, comfort,
+        and expert planning.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-col1">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#destinations-section">Destinations</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+
+    <!-- Offices -->
+    <div class="footer-col">
+      <h3>Our Offices</h3>
+      <p><strong>India</strong><br>
+        Gujarat Office: T/15C, India Bulls, Jetalpur Road, Vadodara, Gujarat<br>
+        +91 8128671570 , 
+         +91 9157483990
+      </p>
+
+      <p><strong>Vietnam</strong><br>
+         Office: 24 Binh Hoa 6 Street, Khue Trung Ward, Cam Le District, Da Nang City<br>
+        +91 9898598990
+      </p>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <p>Email:<br>
+        sales@travlog.com<br>
+        support@travlog.live<br>
+        info@travlog.live<br>
+        ali@travlog.live
+      </p>
+      <style>
+.footer-col1{
+  color:lightblue;
+  font-weight:900;
+  text-decoration:none;
+  transition:.2s ease;
+}
+
+.footer-col1:hover{
+  color:#1e73ff;
+  text-decoration:underline;
+}
+</style>
+<div class="socials footer-socials">
+  <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://www.instagram.com/travlog_dmc/" target="_blank" class="social-ig">
+  <i class="fab fa-instagram"></i>
+</a>
+
+  <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+</div>
+
+
+  </div>
+<div class="footer-bottom">
+    ©️ 2026 Travlog. All Rights Reserved.
+</div>
+</footer>
+
+
+  <!-- =========================
+       DESTINATION HIGHLIGHTS MODAL (JS expects these IDs)
+  ========================= -->
+  <div class="modal-overlay" id="hlModalOverlay" aria-hidden="true">
+    <div class="hl-modal" role="dialog" aria-modal="true" aria-labelledby="hlTitle">
+      <button class="hl-close" id="hlCloseBtn" aria-label="Close">×</button>
+
+      <div class="hl-modal-grid">
+        <div class="hl-media">
+          <img id="hlImage" src="" alt="Destination image" />
+        </div>
+
+        <div class="hl-content">
+          <h3 id="hlTitle">Destination</h3>
+          <p id="hlSubtitle" class="hl-subtitle"></p>
+        <div class="dest-highlights">
+  <span>Top Attractions:</span>
+</div>
+
+          <ul id="hlList" class="hl-list"></ul>
+
+          <div class="hl-actions">
+            <a class="hl-primary" href="#contact">Send Inquiry</a>
+            <button class="hl-secondary" id="hlCloseBtn2">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ===== SIDE DRAWER (LEFT) ===== -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <button class="drawer-close" id="drawerClose" aria-label="Close">×</button>
+
+  <div class="drawer-content">
+    <div class="drawer-logo">
+      <img src="travloglogo.png" alt="Travlog Logo">
+    </div>
+
+    <h3 class="drawer-title">Contact Information</h3>
+<strong>Emails:</strong><br>
+    <div class="drawer-block1">
+      
+      <a href="mailto:sales@travlog.com">sales@travlog.com</a><br>
+      <a href="mailto:support@travlog.live">support@travlog.live</a><br>
+      <a href="mailto:info@travlog.live">info@travlog.live</a><br>
+      <a href="mailto:ali@travlog.live">ali@travlog.live</a>
+      <style>
+.drawer-block1{
+  color:#4db8ff;
+  font-weight:900;
+  text-decoration:none;
+  transition:.2s ease;
+}
+
+.drawer-block1:hover{
+  color:#1e73ff;
+  text-decoration:underline;
+}
+</style>
+    </div>
+<div class="drawer-socials">
+  <a href="https://facebook.com/" target="_blank" class="fb"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://www.instagram.com/travlog_dmc/" target="_blank" class="social-ig">
+  <i class="fab fa-instagram"></i>
+</a>
+  <a href="https://linkedin.com/" target="_blank" class="ln"><i class="fab fa-linkedin-in"></i></a>
+  <a href="https://youtube.com/" target="_blank" class="yt"><i class="fab fa-youtube"></i></a>
+</div>
+
+
+    <div class="drawer-block">
+      <h4>Phone:</h4>
+      <p>+91 8128671570</p>
+      <p>+91 9898598990</p>
+      <p>+91 9157483990</p>
+    </div>
+
+    <div class="drawer-block">
+      <h4>India</h4>
+      <p>Gujarat Office: T/15C, India Bulls, Jetalpur Road, Vadodara, Gujarat</p>
+    </div>
+
+    <div class="drawer-block">
+      <h4>Vietnam Office</h4>
+      <p>24 Binh Hoa 6 Street, Khue Trung Ward, Cam Le District, Da Nang City</p>
+    </div>
+  </div>
+</aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
